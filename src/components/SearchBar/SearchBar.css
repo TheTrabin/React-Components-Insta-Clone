@@ -20,6 +20,7 @@
 
 .logo-image {
   height: 100%;
+  display: flex;
 }
 
 .social-wrapper {
