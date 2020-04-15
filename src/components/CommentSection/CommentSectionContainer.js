@@ -11,7 +11,7 @@ const CommentSection = props => {
 
 
   function changeComment(e) {
-      setNewComment({username: "tester", text: e.target.value});
+      setNewComment({username: "Trabin", text: e.target.value});
   }
 
   function submitComment(e) {
@@ -30,7 +30,7 @@ const CommentSection = props => {
         <Comment key={index} comment={comment} />
       ))
     }
-      <CommentInput comment = {newComment.text} changeComment = {changeComment} submitComment={submitComment} />>
+      <CommentInput comment = {newComment.text} changeComment = {changeComment} submitComment={submitComment} />
     </div>
   );
 };
